@@ -1,0 +1,18 @@
+Feb 15
+-Fix OC to 1.836GHz
+-MSM_THERMALD
+
+Feb 14
+-Linaro GCC 4.9 Optimized for Cortex-A15
+-Bump all stock Voltages to 1150000
+-Bump OC Voltages
+-CPU OC to 1.836GHz
+-CPU UC to 192MHz
+-MSM_MPDEC
+
+Feb 13
+-Initial Fork of CM
+-Wake Controls
+-BLN
+-Voltage Control
+-CPU and GPU OC to 1.728GHz and 512MHz
