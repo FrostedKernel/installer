@@ -9,6 +9,8 @@ Feb 14
 -CPU OC to 1.836GHz
 -CPU UC to 192MHz
 -MSM_MPDEC
+-Merge with CAF
+-Merge Linux 3.4.106
 
 Feb 13
 -Initial Fork of CM
