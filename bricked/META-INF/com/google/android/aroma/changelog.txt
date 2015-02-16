@@ -1,8 +1,13 @@
+Feb 16
+-Export Krait Variant
+
 Feb 15
 -Fix OC to 1.836GHz
 -MSM_THERMAL
 -Compiled with -O3
 -Switch to XZ Compression
+-Added Module Support
+-Added Simple GPU Governor
 
 Feb 14
 -Linaro GCC 4.9 Optimized for Cortex-A15
