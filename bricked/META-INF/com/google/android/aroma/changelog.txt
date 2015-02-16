@@ -6,6 +6,7 @@ Feb 16
 -Export Krait Variant
 -exFAT Support
 -FRANDOM Support
+-KControl GPU Module
 
 Feb 15
 -Fix OC to 1.836GHz
