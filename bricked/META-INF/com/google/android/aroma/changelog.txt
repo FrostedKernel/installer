@@ -1,6 +1,8 @@
 Feb 15
 -Fix OC to 1.836GHz
--MSM_THERMALD
+-MSM_THERMAL
+-Compiled with -O3
+-Switch to XZ Compression
 
 Feb 14
 -Linaro GCC 4.9 Optimized for Cortex-A15
