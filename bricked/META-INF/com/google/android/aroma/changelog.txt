@@ -5,6 +5,7 @@ Feb 16
 -Choose Badass and FIOPS as default
 -Export Krait Variant
 -exFAT Support
+-FRANDOM Support
 
 Feb 15
 -Fix OC to 1.836GHz
