@@ -1,4 +1,8 @@
 Feb 16
+-More I/O Schedulers
+-More CPU Governors
+-Bump OC Voltages
+-Choose Badass and FIOPS as default
 -Export Krait Variant
 
 Feb 15
