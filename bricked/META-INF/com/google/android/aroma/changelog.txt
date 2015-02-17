@@ -1,3 +1,8 @@
+Feb 17
+-Build exFAT into the kernel
+-Try building scsi_wait_scan into the kernel
+-Try building KControl Module into the kernel
+
 Feb 16
 -More I/O Schedulers
 -More CPU Governors
