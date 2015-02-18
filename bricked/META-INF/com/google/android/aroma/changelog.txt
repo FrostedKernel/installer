@@ -1,3 +1,6 @@
+Feb 18
+-Build KControl Module as a Module
+
 Feb 17
 -Build exFAT into the kernel
 -Try building scsi_wait_scan into the kernel
