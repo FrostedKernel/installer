@@ -1,0 +1,6 @@
+Feb 17
+-Initial Fork from Bricked Editon
+-Dynamic Fsync
+-Intelli_Plug instead of MSM_MPDECISION
+-Intelli_Thermal instead of MSM_THERMAL
+-Merge with CM

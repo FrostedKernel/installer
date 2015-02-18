@@ -1,0 +1,6 @@
+#!/system/bin/sh
+# m7 battery tweaks @dd98
+echo "500" > /proc/sys/vm/dirty_expire_centisecs;
+echo "1000" > /proc/sys/vm/dirty_writeback_centisecs;
+killall -9 android.process.media
+killall -9 mediaserver
