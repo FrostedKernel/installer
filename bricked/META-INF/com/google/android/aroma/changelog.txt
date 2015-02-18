@@ -1,5 +1,8 @@
 Feb 18
 -Build KControl Module as a Module
+-Add Sound Control
+-Add KCal Control
+-Add F2FS
 
 Feb 17
 -Build exFAT into the kernel
@@ -8,6 +11,7 @@ Feb 17
 -Added SmartassV2 Governor
 -Added Asynchronous Fsync
 -Merge with CM
+-Lower Thermal Throttle Values
 
 Feb 16
 -More I/O Schedulers
