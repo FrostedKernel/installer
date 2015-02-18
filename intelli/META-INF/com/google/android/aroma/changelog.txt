@@ -1,3 +1,6 @@
+Feb 18
+-Build KControl as a Module
+
 Feb 17
 -Initial Fork from Bricked Editon
 -Dynamic Fsync
