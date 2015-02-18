@@ -4,6 +4,7 @@ Feb 17
 -Try building KControl Module into the kernel
 -Added SmartassV2 Governor
 -Added Asynchronous Fsync
+-Merge with CM
 
 Feb 16
 -More I/O Schedulers
