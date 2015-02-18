@@ -1,5 +1,8 @@
 Feb 18
 -Build KControl as a Module
+-Add Sound Control
+-Add KCal Control
+-Add F2FS
 
 Feb 17
 -Initial Fork from Bricked Editon
