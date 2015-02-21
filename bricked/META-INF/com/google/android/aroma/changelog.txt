@@ -1,3 +1,10 @@
+Feb 21
+-Add SIO Plus I/O Scheduler
+
+Feb 20
+-Update MSM_MPDECISION
+-Set Multi Core Power Saving Mode to 2 by Default
+
 Feb 18
 -Build KControl Module as a Module
 -Add Sound Control
