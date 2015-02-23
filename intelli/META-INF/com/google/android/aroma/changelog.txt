@@ -1,5 +1,14 @@
+Feb 23
+-Merge with CM
+-Badass GPU Control
+-Update Toolchain
+
+Feb 22
+-GPU Memory Usage Feature for KControl
+
 Feb 21
--Add SIO Plus I/O scheduler
+-Add SIO Plus I/O Scheduler
+-Fix Logic Derp in Simple GPU Governor
 
 Feb 20
 -Set Multi Core Power Saving Mode to 2 by Default
