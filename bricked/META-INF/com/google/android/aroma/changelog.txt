@@ -1,7 +1,11 @@
+Feb 24
+-Revert Memory Usage Feature
+
 Feb 23
 -Merge with CM
 -Badass GPU Control
 -Update Toolchain
+-Revert Badass GPU Control
 
 Feb 22
 -GPU Memory Usage Feature for KControl

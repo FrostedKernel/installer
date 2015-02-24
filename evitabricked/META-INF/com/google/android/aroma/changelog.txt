@@ -1,0 +1,71 @@
+Feb 24
+-Revert GPU Control
+-Revery Memory Usage Feature
+-Initial Evita Release
+-DT2W and Pocket Detection for Evita
+
+Feb 23
+-Merge with CM
+-Badass GPU Control
+-Update Toolchain
+
+Feb 22
+-GPU Memory Usage Feature for KControl
+
+Feb 21
+-Add SIO Plus I/O Scheduler
+-Fix Logic Derp in Simple GPU Governor
+
+Feb 20
+-Update MSM_MPDECISION
+-Set Multi Core Power Saving Mode to 2 by Default
+
+Feb 18
+-Build KControl Module as a Module
+-Add Sound Control
+-Add KCal Control
+-Add F2FS
+
+Feb 17
+-Build exFAT into the kernel
+-Try building scsi_wait_scan into the kernel
+-Try building KControl Module into the kernel
+-Added SmartassV2 Governor
+-Added Asynchronous Fsync
+-Merge with CM
+-Lower Thermal Throttle Values
+
+Feb 16
+-More I/O Schedulers
+-More CPU Governors
+-Bump OC Voltages
+-Choose Badass and FIOPS as default
+-Export Krait Variant
+-exFAT Support
+-FRANDOM Support
+-KControl GPU Module
+
+Feb 15
+-Fix OC to 1.836GHz
+-MSM_THERMAL
+-Compiled with -O3
+-Switch to XZ Compression
+-Added Module Support
+-Added Simple GPU Governor
+
+Feb 14
+-Linaro GCC 4.9 Optimized for Cortex-A15
+-Bump all stock Voltages to 1150000
+-Bump OC Voltages
+-CPU OC to 1.836GHz
+-CPU UC to 192MHz
+-MSM_MPDEC
+-Merge with CAF
+-Merge Linux 3.4.106
+
+Feb 13
+-Initial Fork of CM
+-Wake Controls
+-BLN
+-Voltage Control
+-CPU and GPU OC to 1.728GHz and 512MHz
