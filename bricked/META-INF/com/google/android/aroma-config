@@ -135,25 +135,25 @@ textbox(
 #  "Userspace","",0
 #);
 
-selectbox(
-  "I/O Scheduler",
-  "Default I/O Scheduler:",
-  "icons/personalize",
-  "scheduler.prop",
-
-  "BFQ","",0,
-  "CFQ","",0,
-  "Deadline","",0,
-  "FiFo","",0,
-  "FIOPS","Default",1,
-  "No-op","",0,
-  "ROW","",0,
-  "SIO","",0,
-  "SIO Plus","",0,
-  "TripNDroid","",0,
-  "Vr","",0,
-  "Zen","",0
-);
+#selectbox(
+#  "I/O Scheduler",
+#  "Default I/O Scheduler:",
+#  "icons/personalize",
+#  "scheduler.prop",
+#
+#  "BFQ","",0,
+#  "CFQ","",0,
+#  "Deadline","",0,
+#  "FiFo","",0,
+#  "FIOPS","Default",1,
+#  "No-op","",0,
+#  "ROW","",0,
+#  "SIO","",0,
+#  "SIO Plus","",0,
+#  "TripNDroid","",0,
+#  "Vr","",0,
+#  "Zen","",0
+#);
 
 selectbox(
   "BLN",
@@ -209,15 +209,15 @@ selectbox(
   "Disabled","",0
 );
 
-selectbox(
-  "Do you want Force Fastcharge?",
-  "Please Choose:",
-  "icons/personalize",
-  "fastcharge.prop",
-  
-  "Enabled","",1,
-  "Disabled","",0
-);
+#selectbox(
+#  "Do you want Force Fastcharge?",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "fastcharge.prop",
+#  
+#  "Enabled","",1,
+#  "Disabled","",0
+#);
 
 viewbox(
   "The Point of No Return",
