@@ -49,8 +49,6 @@ textbox(
   readfile_aroma("changelog.txt")
 );
 
-appendvar("installmsg","\n\nPlease Select The Desired Options Below:");
-
 selectbox(
   "Max CPU Frequency",
   "Please Choose:",
