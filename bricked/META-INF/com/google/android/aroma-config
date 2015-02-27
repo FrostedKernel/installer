@@ -49,18 +49,18 @@ textbox(
   readfile_aroma("changelog.txt")
 );
 
-selectbox(
-  "Max CPU Frequency",
-  "Please Choose:",
-  "icons/personalize",
-  "maxkhz.prop",
-
-  "1512 MHz","Default ",1,
-  "1674 MHz","",0,
-  "1728 MHz","",0,
-  "1782 MHz","",0,
-  "1836 MHz","",0
-);
+#selectbox(
+#  "Max CPU Frequency",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "maxkhz.prop",
+#
+#  "1512 MHz","Default ",1,
+#  "1674 MHz","",0,
+#  "1728 MHz","",0,
+#  "1782 MHz","",0,
+#  "1836 MHz","",0
+#);
 
 #selectbox(
 #  "Min CPU Frequency",
@@ -88,52 +88,52 @@ selectbox(
 #  "594 MHz","",0
 #);
 
-selectbox(
-  "Max 2D GPU Frequency",
-  "Please Choose:",
-  "icons/personalize",
-  "twodgpu.prop",
-  
-  "200 MHz","Default ",1,
-  "267 MHz","",0,
-  "300 MHz","",0,
-  "320 MHz","",0
-);
+#selectbox(
+#  "Max 2D GPU Frequency",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "twodgpu.prop",
+#  
+#  "200 MHz","Default ",1,
+#  "267 MHz","",0,
+#  "300 MHz","",0,
+#  "320 MHz","",0
+#);
 
-selectbox(
-  "Max 3D GPU Frequency",
-  "Please Choose:",
-  "icons/personalize",
-  "threedgpu.prop",
-  
-  "400 MHz","Default ",1,
-  "436 MHz","",0,
-  "480 MHz","",0,
-  "512 MHz","",0
-);
+#selectbox(
+#  "Max 3D GPU Frequency",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "threedgpu.prop",
+#  
+#  "400 MHz","Default ",1,
+#  "436 MHz","",0,
+#  "480 MHz","",0,
+#  "512 MHz","",0
+#);
 
-selectbox(
-  "CPU Governor",
-  "Default Governor:",
-  "icons/personalize",
-  "governor.prop",
-  
-  "Badass","Default",1,
-  "Conservative","",0,
-  "ElementalX","",0,
-  "Intelliactive","",0,
-  "Intellidemand","",0,
-  "Intellimm","",0,
-  "Interactive","",0,
-  "Lionheart","",0,
-  "Ondemand","",0,
-  "Performance","",0,
-  "Powersave","",0,
-  "Preservative","",0,
-  "SmartassV2","",0,
-  "TripNDroid","",0,
-  "Userspace","",0
-);
+#selectbox(
+#  "CPU Governor",
+#  "Default Governor:",
+#  "icons/personalize",
+#  "governor.prop",
+#  
+#  "Badass","Default",1,
+#  "Conservative","",0,
+#  "ElementalX","",0,
+#  "Intelliactive","",0,
+#  "Intellidemand","",0,
+#  "Intellimm","",0,
+#  "Interactive","",0,
+#  "Lionheart","",0,
+#  "Ondemand","",0,
+#  "Performance","",0,
+#  "Powersave","",0,
+#  "Preservative","",0,
+#  "SmartassV2","",0,
+#  "TripNDroid","",0,
+#  "Userspace","",0
+#);
 
 selectbox(
   "I/O Scheduler",
