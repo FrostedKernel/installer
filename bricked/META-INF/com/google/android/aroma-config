@@ -2,7 +2,7 @@ ini_set("rom_name",             "Frosted Kernel");
 ini_set("rom_version",		"Bricked");
 ini_set("rom_author",           "javelinanddart");
 ini_set("rom_device", 		"HTC One S");
-ini_set("rom_date", 		"25/02/2015");
+ini_set("rom_date", 		"26/02/2015");
 ini_set("transition",           "stack");
 ini_set("force_colorspace",     "rgba");
 
@@ -47,6 +47,178 @@ textbox(
   "Frosted Kernel Changelog",
   "icons/info",
   readfile_aroma("changelog.txt")
+);
+
+appendvar("installmsg","\n\nPlease Select The Desired Options Below:");
+
+selectbox(
+  "Max CPU Frequency",
+  "Please Choose:",
+  "icons/personalize",
+  "maxkhz.prop",
+
+  "1512 MHz","Default ",1,
+  "1674 MHz","",0,
+  "1728 MHz","",0,
+  "1782 MHz","",0,
+  "1836 MHz","",0
+);
+
+selectbox(
+  "Min CPU Frequency",
+  "Please Choose:",
+  "icons/personalize",
+  "minkhz.prop",
+
+  "192 MHz","",0,
+  "384 MHz","Default",1,
+  "432 MHz","",0,
+  "486 MHz","",0,
+  "540 MHz","",0
+);
+
+selectbox(
+  "Max CPU Frequency W/ Screen Off",
+  "Please Choose:",
+  "icons/personalize",
+  "maxscroff.prop",
+
+  "384 MHz","",0,
+  "432 MHz","",0,
+  "486 MHz","Default",1,
+  "540 MHz","",0,
+  "594 MHz","",0
+);
+
+selectbox(
+  "Max 2D GPU Frequency",
+  "Please Choose:",
+  "icons/personalize",
+  "twodgpu.prop",
+  
+  "200 MHz","Default ",1,
+  "267 MHz","",0,
+  "300 MHz","",0,
+  "320 MHz","",0
+);
+
+selectbox(
+  "Max 3D GPU Frequency",
+  "Please Choose:",
+  "icons/personalize",
+  "threedgpu.prop",
+  
+  "400 MHz","Default ",1,
+  "436 MHz","",0,
+  "480 MHz","",0,
+  "512 MHz","",0
+);
+
+selectbox(
+  "CPU Governor",
+  "Default Governor:",
+  "icons/personalize",
+  "governor.prop",
+  
+  "Badass","Default",1,
+  "Conservative","",0,
+  "ElementalX","",0,
+  "Intelliactive","",0,
+  "Intellidemand","",0,
+  "Intellimm","",0,
+  "Interactive","",0,
+  "Lionheart","",0,
+  "Ondemand","",0,
+  "Performance","",0,
+  "Powersave","",0,
+  "Preservative","",0,
+  "SmartassV2","",0,
+  "TripNDroid","",0,
+  "Userspace","",0
+);
+
+selectbox(
+  "I/O Scheduler",
+  "Default I/O Scheduler:",
+  "icons/personalize",
+  "scheduler.prop",
+
+  "BFQ","",0,
+  "CFQ","",0,
+  "Deadline","",0,
+  "FiFo","",0,
+  "FIOPS","Default",1,
+  "No-op","",0,
+  "ROW","",0,
+  "SIO","",0,
+  "SIO Plus","",0,
+  "TripNDroid","",0,
+  "Vr","",0,
+  "Zen","",0
+);
+
+selectbox(
+  "BLN",
+  "Please Choose:",
+  "icons/personalize",
+  "bln.prop",
+  
+  "Enabled","",1,
+  "Disabled","",0
+);
+
+selectbox(
+  "Sweep2Wake",
+  "Please Choose:",
+  "icons/personalize",
+  "sweep2wake.prop",
+  
+  "Enabled","",1,
+  "Disabled","",0
+);
+
+selectbox(
+  "DoubleTap2Wake",
+  "Please Choose:",
+  "icons/personalize",
+  "doubletap2wake.prop",
+  
+  "Back Button","",0,
+  "Home Button","",1,
+  "Recents Button","",0,
+  "Disabled","",0
+);
+
+selectbox(
+  "DoubleTap2Sleep",
+  "Please Choose:",
+  "icons/personalize",
+  "doubletap2sleep.prop",
+  
+  "Back Button","",0,
+  "Home Button","",1,
+  "Recents Button","",0,
+  "Disabled","",0
+);
+
+selectbox(
+  "Pocket Detection",
+  "Please Choose:",
+  "icons/personalize",
+  "pocketdetect.prop",
+  
+  "Enabled","",1,
+  "Disabled","",0
+);
+
+selectbox(
+  "Do you want Force Fastcharge?",
+  "Please Choose:",
+  "icons/personalize",
+  "fastcharge.prop",
+  
+  "Enabled","",1,
+  "Disabled","",0
 );
 
 viewbox(

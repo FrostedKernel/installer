@@ -13,6 +13,19 @@ set_perm(0, 0, 0777, "/tmp/mkbootimg");
 set_perm(0, 0, 0777, "/tmp/unpackbootimg");
 set_perm(0, 0, 0777, "/tmp/modclean.sh");
 set_perm(0, 0, 0777, "/tmp/edit_ramdisk.sh");
+set_perm(0, 0, 0777, "/tmp/bln.sh");
+set_perm(0, 0, 0777, "/tmp/doubletap2sleep.sh");
+set_perm(0, 0, 0777, "/tmp/doubletap2wake.sh");
+set_perm(0, 0, 0777, "/tmp/fastcharge.sh");
+set_perm(0, 0, 0777, "/tmp/governor.sh");
+set_perm(0, 0, 0777, "/tmp/maxkhz.sh");
+set_perm(0, 0, 0777, "/tmp/maxscroff.sh");
+set_perm(0, 0, 0777, "/tmp/minkhz.sh");
+set_perm(0, 0, 0777, "/tmp/pocketdetect.sh");
+set_perm(0, 0, 0777, "/tmp/scheduler.sh");
+set_perm(0, 0, 0777, "/tmp/sweep2wake.sh");
+set_perm(0, 0, 0777, "/tmp/threedgpu.sh");
+set_perm(0, 0, 0777, "/tmp/twodgpu.sh");
 set_progress(0.1);
 
 ui_print("Mounting System...");
@@ -52,6 +65,21 @@ set_progress(0.7);
 
 ui_print("Checking Compatability...");
 run_program("/tmp/compatibility.sh");
+
+ui_print("Setting Selected Options...");
+run_program("/tmp/bln.sh");
+run_program("/tmp/doubletap2sleep.sh");
+run_program("/tmp/doubletap2wake.sh");
+run_program("/tmp/fastcharge.sh");
+run_program("/tmp/governor.sh");
+run_program("/tmp/maxkhz.sh");
+run_program("/tmp/maxscroff.sh");
+run_program("/tmp/minkhz.sh");
+run_program("/tmp/pocketdetect.sh");
+run_program("/tmp/scheduler.sh");
+run_program("/tmp/sweep2wake.sh");
+run_program("/tmp/twodgpu.sh");
+run_program("/tmp/threedgpu.sh");
 set_progress(0.75);
 
 ui_print("Unmounting System...");
