@@ -62,31 +62,31 @@ selectbox(
   "1836 MHz","",0
 );
 
-selectbox(
-  "Min CPU Frequency",
-  "Please Choose:",
-  "icons/personalize",
-  "minkhz.prop",
+#selectbox(
+#  "Min CPU Frequency",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "minkhz.prop",
+#
+#  "192 MHz","",0,
+#  "384 MHz","Default",1,
+#  "432 MHz","",0,
+#  "486 MHz","",0,
+#  "540 MHz","",0
+#);
 
-  "192 MHz","",0,
-  "384 MHz","Default",1,
-  "432 MHz","",0,
-  "486 MHz","",0,
-  "540 MHz","",0
-);
-
-selectbox(
-  "Max CPU Frequency W/ Screen Off",
-  "Please Choose:",
-  "icons/personalize",
-  "maxscroff.prop",
-
-  "384 MHz","",0,
-  "432 MHz","",0,
-  "486 MHz","Default",1,
-  "540 MHz","",0,
-  "594 MHz","",0
-);
+#selectbox(
+#  "Max CPU Frequency W/ Screen Off",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "maxscroff.prop",
+#
+#  "384 MHz","",0,
+#  "432 MHz","",0,
+#  "486 MHz","Default",1,
+#  "540 MHz","",0,
+#  "594 MHz","",0
+#);
 
 selectbox(
   "Max 2D GPU Frequency",
