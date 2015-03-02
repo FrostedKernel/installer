@@ -1,5 +1,6 @@
 Mar 1
 -Disable Command Line Interfacing
+-QSEECOM Support
 
 Feb 26
 -Command Line Interfacing
