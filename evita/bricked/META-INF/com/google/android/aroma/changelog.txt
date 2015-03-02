@@ -1,0 +1,9 @@
+Mar 01
+-QSEECOM
+-SELinux Permissive
+-Disable Wake Controls
+-Modules Support
+-TCP Congestion Control Algorithms
+
+Feb 24
+-Initial Evita Release

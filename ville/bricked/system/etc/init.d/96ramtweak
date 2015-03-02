@@ -1,0 +1,10 @@
+#!/system/bin/sh
+# RAM Boosting init.d script
+echo "0,1,2,4,6,15" > /sys/module/lowmemorykiller/parameters/adj;
+echo "2560,4096,6144,11264,11776,14336" > /sys/module/lowmemorykiller/parameters/minfree;
+echo "20" > /proc/sys/vm/swappiness;
+echo "70" > /proc/sys/vm/vfs_cache_pressure;
+echo "3000" > /proc/sys/vm/dirty_expire_centisecs;
+echo "500" > /proc/sys/vm/dirty_writeback_centisecs;
+echo "15" > /proc/sys/vm/dirty_ratio;
+echo "3" > /proc/sys/vm/dirty_background_ratio;

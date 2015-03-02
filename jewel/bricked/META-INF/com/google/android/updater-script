@@ -1,0 +1,79 @@
+ui_print("You Are Installing...");
+ui_print("Frosted Kernel by @javelinanddart for HTC Evo 4G LTE (Jewel)!");
+ui_print("-----------------------------------------------------------------------");
+ifelse(is_mounted("/system") == "/system", unmount("/system"));
+ifelse(is_mounted("/cache") == "/cache", unmount("/cache"));
+set_progress(0.1);
+
+ui_print("Extracting Files...");
+package_extract_dir("kernel", "/tmp");
+set_perm(0, 0, 0777, "/tmp/compatibility.sh");
+set_perm(0, 0, 0777, "/tmp/mkbootimg.sh");
+set_perm(0, 0, 0777, "/tmp/mkbootimg");
+set_perm(0, 0, 0777, "/tmp/unpackbootimg");
+set_perm(0, 0, 0777, "/tmp/modclean.sh");
+set_perm(0, 0, 0777, "/tmp/edit_ramdisk.sh");
+set_progress(0.1);
+
+ui_print("Mounting System...");
+run_program("/sbin/busybox", "mount", "/system");
+set_progress(0.2);
+
+ui_print("Mounting Cache...");
+run_program("/sbin/busybox", "mount", "/cache");
+
+ui_print("Mounting Data...");
+run_program("/sbin/busybox", "mount", "/data");
+
+ui_print("Removing Old Modules...");
+run_program("/tmp/modclean.sh");
+set_progress(0.3);
+
+ui_print("Copying New Modules...");
+package_extract_dir("system", "/system");
+#package_extract_dir("prebuilt", "/system");
+
+ui_print("Extracting Old Kernel...");
+run_program("/sbin/busybox", "dd", "if=/dev/block/mmcblk0p21", "of=/tmp/boot.img");
+set_progress(0.5);
+
+ui_print("Extracting Ramdisk...");
+run_program("/tmp/unpackbootimg", "-i", "/tmp/boot.img", "-o", "/tmp/");
+set_progress(0.65);
+
+ui_print("Fixing Your Ramdisk...");
+ui_print("Looking For Busybox...");
+ui_print("Adding init.d Support (If It's Not Already Supported)...");
+ui_print("Disabling Variable Brightness Controls To Allow BLN...");
+ui_print("Enabling Insecure Kernel...");
+ui_print("Removing Governor Overrides...");
+run_program("/tmp/edit_ramdisk.sh");
+set_progress(0.7);
+
+ui_print("Checking Compatability...");
+run_program("/tmp/compatibility.sh");
+set_progress(0.75);
+
+ui_print("Unmounting System...");
+unmount("/system");
+set_progress(0.8);
+
+ui_print("Making New boot.img...");
+run_program("/tmp/mkbootimg.sh");
+set_progress(0.9);
+
+ui_print("Flashing New boot.img...");
+run_program("/sbin/busybox", "dd", "if=/tmp/newboot.img", "of=/dev/block/mmcblk0p21");
+set_progress(0.95);
+
+#ui_print("Wiping Cache and Dalvik...");
+#unmount("/cache");
+#format("ext4", "EMMC", "/dev/block/mmcblk0p34", 0);
+#delete_recursive("/data/dalvik-cache");
+unmount("/data");
+
+ui_print("");
+
+ui_print("Done");
+
+ui_print("Enjoy!");
