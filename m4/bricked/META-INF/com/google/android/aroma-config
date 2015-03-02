@@ -2,7 +2,7 @@ ini_set("rom_name",             "Frosted Kernel");
 ini_set("rom_version",		"Bricked");
 ini_set("rom_author",           "javelinanddart");
 ini_set("rom_device", 		"HTC One Mini");
-ini_set("rom_date", 		"01/03/2015");
+ini_set("rom_date", 		"02/03/2015");
 ini_set("transition",           "stack");
 ini_set("force_colorspace",     "rgba");
 
