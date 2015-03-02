@@ -2,7 +2,7 @@ ini_set("rom_name",             "Frosted Kernel");
 ini_set("rom_version",		"Bricked");
 ini_set("rom_author",           "javelinanddart");
 ini_set("rom_device", 		"HTC One S");
-ini_set("rom_date", 		"26/02/2015");
+ini_set("rom_date", 		"01/03/2015");
 ini_set("transition",           "stack");
 ini_set("force_colorspace",     "rgba");
 
@@ -155,59 +155,59 @@ textbox(
 #  "Zen","",0
 #);
 
-selectbox(
-  "BLN",
-  "Please Choose:",
-  "icons/personalize",
-  "bln.prop",
-  
-  "Enabled","",1,
-  "Disabled","",0
-);
+#selectbox(
+#  "BLN",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "bln.prop",
+#  
+#  "Enabled","",1,
+#  "Disabled","",0
+#);
 
-selectbox(
-  "Sweep2Wake",
-  "Please Choose:",
-  "icons/personalize",
-  "sweep2wake.prop",
-  
-  "Enabled","",1,
-  "Disabled","",0
-);
+#selectbox(
+#  "Sweep2Wake",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "sweep2wake.prop",
+#  
+#  "Enabled","",1,
+#  "Disabled","",0
+#);
 
-selectbox(
-  "DoubleTap2Wake",
-  "Please Choose:",
-  "icons/personalize",
-  "doubletap2wake.prop",
-  
-  "Back Button","",0,
-  "Home Button","",1,
-  "Recents Button","",0,
-  "Disabled","",0
-);
+#selectbox(
+#  "DoubleTap2Wake",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "doubletap2wake.prop",
+#  
+#  "Back Button","",0,
+#  "Home Button","",1,
+#  "Recents Button","",0,
+#  "Disabled","",0
+#);
 
-selectbox(
-  "DoubleTap2Sleep",
-  "Please Choose:",
-  "icons/personalize",
-  "doubletap2sleep.prop",
-  
-  "Back Button","",0,
-  "Home Button","",1,
-  "Recents Button","",0,
-  "Disabled","",0
-);
+#selectbox(
+#  "DoubleTap2Sleep",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "doubletap2sleep.prop",
+#  
+#  "Back Button","",0,
+#  "Home Button","",1,
+#  "Recents Button","",0,
+#  "Disabled","",0
+#);
 
-selectbox(
-  "Pocket Detection",
-  "Please Choose:",
-  "icons/personalize",
-  "pocketdetect.prop",
-  
-  "Enabled","",1,
-  "Disabled","",0
-);
+#selectbox(
+#  "Pocket Detection",
+#  "Please Choose:",
+#  "icons/personalize",
+#  "pocketdetect.prop",
+#  
+#  "Enabled","",1,
+#  "Disabled","",0
+#);
 
 #selectbox(
 #  "Do you want Force Fastcharge?",
